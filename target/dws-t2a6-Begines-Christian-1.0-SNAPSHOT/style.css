@@ -6,3 +6,17 @@ html{
 body{
     background-color:#f4e6cb; 
 } 
+.menu{
+    display:inline;
+}
+.btn-group{
+   padding-right: 10px;
+}
+
+.btn-group{
+    padding-top: 10mm;
+    
+}
+main{
+    background-color:#F4E6CB;
+}
