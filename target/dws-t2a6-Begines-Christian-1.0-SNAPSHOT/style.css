@@ -3,7 +3,7 @@ html{
     background-color: #f2d087;
     padding: 5px;
 }
-body{
+header,.btn-group,body{
     background-color:#f4e6cb; 
 } 
 .menu{
@@ -11,12 +11,23 @@ body{
 }
 .btn-group{
    padding-right: 10px;
+   padding-top: 10mm;
+}
+.tableImg{
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color:#D4E6DB;
+}
+.celdas{
+    padding: 5mm;
+}
+.dropdown{
+    align-self: center;
 }
 
-.btn-group{
-    padding-top: 10mm;
-    
+.titulo,caption{
+    text-align: center;
 }
-main{
-    background-color:#F4E6CB;
+.span1{
+    background-color: #c98724;
 }

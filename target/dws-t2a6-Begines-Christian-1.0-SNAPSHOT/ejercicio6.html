@@ -7,23 +7,59 @@
         <link rel="stylesheet" href="style.css" type="text/css"> 
     </head>
     <body>
-
         <header class="text-center">
             <h1>Electrodomesticos SanDiego</h1>
             La confianza es lo primero
-            
-        </header>
-        <div class="btn-group" role="group" id="botones">  
-                <button type="button" class="btn btn-warning" id="b1">Productos Cocina</button>
-                <button type="button" class="btn btn-warning" id="b2">Productos ocio</button>
-                <button type="button" class="btn btn-warning" id="b3">Conocenos</button>                             
-        </div>
-        <div>
-            <main>
-                <table>
-                    <thead>Productos mas demandados</thead>
+
+        </header> 
+        <span class="btn-group" role="group" id="botones">  
+            <button type="button" class="btn btn-warning" id="b1">Productos Cocina</button>
+            <button type="button" class="btn btn-warning" id="b2">Productos ocio</button>
+            <button type="button" class="btn btn-warning" id="b3">Conocenos</button>                             
+        </span>      
+        <main>
+            <form>
+                <table border="1" class="tableImg">
+                    <caption>Productos mas demandados</caption>                                 
+                    <tr>
+                        <td><img src="img/tv.jpg" width="300" height="200" alt="tv"/></td>
+                        <td><img src="img/vitro.jpg" width="300" height="200" alt="tv"/></td>
+                        <td><img src="img/lavadora.jpg" width="300" height="300" alt="tv"/></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="tv" value="tv4k" />TelevisorHD4K</td>
+                        <td><input type="checkbox" name="vitro" value="vitro" />Vitroceramica Inducida</td>
+                        <td><input type="checkbox" name="lavadora" value="lavadora" />Lavadora 8kg A++</td>
+                    </tr>
                 </table>
-            </main>
-        </div>
+                <span class="span1">
+                    Rellene sus datos y realice su compra
+                </span>
+                <div>
+                    <table border="1">
+                        <caption>Formulario</caption>
+                        <tr>                          
+                            <td>Nombre<input type="text" name="nombre" class="text"></td>
+                            <td class="celdas">Apellido<input type="text" name="apellido"  ></td>
+                            <td class="celdas">Telefono<input type="text" name="telefono" ></td>
+                        </tr>
+                        <tr>
+                            <td class="celdas">DNI<input type="text" name="dni"/></td>
+                            <td class="celdas">Apellido<input type="text" name="apellido"/></td>
+                            <td>
+                                <select class="dropdown" name="tipoPago">
+                                    <option>Visa</option>
+                                    <option>Contado</option>
+                                    <option>Cheque</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </form>
+
+
+        </main>
+
     </body>
 </html>
